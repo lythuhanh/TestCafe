@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "test:chrome": "testcafe chrome ./tests/Section1/practiceTest2.js" ,
+    "test:chrome:headless": "testcafe chrome:headless ./tests",
+    "test:chrome:mobile": "testcafe chorme:emulation:device=iphone X ./tests",
+    "test:safari": "testcafe safari ./tests",
+    "test:firefox": "testcafe firefox ./tests"
+  }
+}
